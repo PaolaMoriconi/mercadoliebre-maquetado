@@ -1,0 +1,12 @@
+header{
+    background-color: var(--color-Amarillo);
+    padding-bottom: 10px;
+}
+.burger-menu{
+   text-align: center ;
+   color:#ffffff;
+}
+.burger-menu i{
+    padding: 10px;
+    background-color: var(--color-Celeste);
+}

@@ -1,0 +1,22 @@
+.home__header p,nav ul li{
+    font-size: 12px;
+}
+.home__main__section h2{
+    font-size: 24px;
+}
+.home__main__section__article h4{
+font-size: 18px;
+}
+.home__main__section__article h5{
+     font-size: 16px;
+}
+.home__main{
+    background-color: var(--color-Gris-claro);
+    padding: 0px 10px 20px 10px;
+}
+
+.home__main__section__article{
+    background-color: #ffffff;
+margin-bottom: 20px;
+padding-bottom: 10px;
+}

@@ -10,13 +10,16 @@ font-size: 18px;
 .home__main__section__article h5{
      font-size: 16px;
 }
-.home__main{
+body{
     background-color: var(--color-Gris-claro);
+}
+.home__main{
+    width: 90%;
     padding: 0px 10px 20px 10px;
 }
 
 .home__main__section__article{
-    background-color: #ffffff;
-margin-bottom: 20px;
+   
 padding-bottom: 10px;
+border-top: 1px solid #ebebeb ;
 }

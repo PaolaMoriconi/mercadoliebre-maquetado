@@ -5,11 +5,16 @@ header{
 .burger-menu{
    text-align: center ;
    color:#ffffff;
+   margin: 10px auto;
 }
 .burger-menu i{
     padding: 10px;
     background-color: var(--color-Celeste);
 }
 /*table y desktop*/
-
+@media(min-width: 768px){ 
+    .burger-menu{
+        display: none;
+    }
+}
 

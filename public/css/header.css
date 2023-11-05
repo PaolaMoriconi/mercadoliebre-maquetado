@@ -1,6 +1,46 @@
 header{
     background-color: var(--color-Amarillo);
     padding-bottom: 10px;
+  
+}
+
+.home__header__section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home__header p, nav ul li {
+  font-size: 12px;
+}
+.home__header__logo{
+    width: 50%;
+}
+.home__header__barraDeBusquedad{
+    width: 40%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home__header__barraDeBusquedad input{
+    width: 90%;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    right: 10%;
+    top: 5px;
+    color: var(--color-Gris-oscuro);
+    font-size: 12px;
+}
+.home__header nav {
+  display: none;
+}
+#leyenda-cuotas{
+    text-align: center;
 }
 .burger-menu{
    text-align: center ;
@@ -10,11 +50,48 @@ header{
 .burger-menu i{
     padding: 10px;
     background-color: var(--color-Celeste);
+    border-radius: 5px;
 }
-/*table y desktop*/
+/*table*/
 @media(min-width: 768px){ 
+    .home__header__logo{
+        width: 30%;
+    }
+    .home__header__barraDeBusquedad{
+        width: 30%;
+    }
+
+    #leyenda-cuotas{
+        width: 30%;
+    }
+    
+    .home__header__section__nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 10px 10px;
+    }
+
+    .home__header__section__nav i{
+        margin-left: 2px;
+    }
+    .home__header__section__nav nav{
+        width: 45%;
+    }
+    .home__header__section__nav nav ul{
+        display: flex;
+        gap: 10px;
+    }
+    .home__header__section__nav__form{
+        justify-content: flex-end;
+    }
     .burger-menu{
         display: none;
     }
+}
+
+/*desktop*/
+@media(min-width: 1024px){ 
+
 }
 

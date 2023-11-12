@@ -1,0 +1,91 @@
+body {
+  background-color: var(--color-Gris-claro);
+}
+
+.home__main__section {
+  width: 90%;
+  margin: 20px auto;
+  gap: 2%;
+}
+.home__main__section h2 {
+  font-size: 24px;
+}
+
+.home__main__section__article {
+  background-color: #fff;
+  padding-bottom: 10px;
+  border-top: 1px solid #ebebeb;
+  margin: 10px auto;
+}
+
+.home__main__section__article img {
+  border-bottom: 1px solid rgba(194, 188, 188, 0.442);
+}
+
+.home__main__section__article__div__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  height: 10vh;
+  padding-left: 5%;
+  position: relative;
+}
+
+.fa-truck {
+  font-size: 16px;
+  padding: 5px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  color: #39b54a;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 85%;
+  top: -15px;
+}
+
+.home__main__section__article__div__info h4 {
+  font-size: 18px;
+  width: 30%;
+}
+
+.home__main__section__article__div__info h5 {
+  font-size: 16px;
+}
+
+.descuento {
+  color: green;
+  width: 70%;
+}
+
+@media (min-width: 768px) {
+  .home__header nav {
+    display: block;
+  }
+
+  .home__main__section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .home__main__section__article {
+    width: 49%;
+  }
+}
+
+/*desktop*/
+@media (min-width: 1024px) {
+  .home__main__section__article {
+    width: 23%;
+  }
+
+  .home__main__section__article__div__info h4 {
+    margin-right: 10%;
+  }
+
+  .descuento {
+    color: green;
+    width: 60%;
+  }
+}

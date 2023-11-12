@@ -1,0 +1,14 @@
+.home__footer{
+    padding-top: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+.home__footer__section i {
+    color: var(--color-Celeste);
+}
+
+#Copyright{
+    text-align: left;
+    font-size: 14px;
+    margin-top: 20px;
+}

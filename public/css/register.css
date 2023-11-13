@@ -1,0 +1,87 @@
+.register__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.register__main__form{
+    width: 90%;
+}
+
+.register__main__form__contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0;
+    text-align: left;
+}
+h3{
+    align-self: flex-start;
+    margin: 5px 0;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+}
+
+.register__main__form__contenedor input{
+    width: 100%;
+}
+
+.register__main__form__contenedor--radio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.register__main__form__contenedor--radio label input{
+    margin-right: 10px;
+}
+.register__main__form__contenedor--checkbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.register__main__form__contenedor--checkbox label{
+ padding: 10px 0;
+}
+
+.register__main__form__contenedor--checkbox input{
+    margin-right: 10px;
+}
+.register__main__form span{
+    color: red;
+    font-size: 12px;
+}
+
+.register__main__form__contenedor--buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#enviar{
+    color: #FFF;
+    background-color: var(--color-Celeste);
+}
+@media (min-width:768px){
+.register__main__form{
+    width: 70%;
+    font-size: 1.2em;
+}
+}
+@media (min-width: 1024px){
+    .register__main__form{
+        width: 60%;
+        font-size: 1.5em;
+    }
+}

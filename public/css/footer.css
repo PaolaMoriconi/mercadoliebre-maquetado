@@ -2,6 +2,9 @@
     padding-top: 20px;
     text-align: center;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .home__footer__section i {
     color: var(--color-Celeste);
@@ -11,4 +14,10 @@
     text-align: left;
     font-size: 14px;
     margin-top: 20px;
+}
+@media(min-width:769px){
+    .home__footer{
+        flex-direction:row ;
+        justify-content: space-between;
+    }
 }
